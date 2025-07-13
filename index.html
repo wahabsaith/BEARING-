@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Bearings - www.noorbearing.com</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f4f4f4; color: #333333; }
+        header { background-color: #006633; color: #FFFFFF; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        header h1 { font-size: 2.2em; }
+        nav { background-color: #333333; padding: 10px; }
+        nav ul { list-style: none; display: flex; justify-content: center; }
+        nav ul li { margin: 0 15px; }
+        nav ul li a { color: #FFFFFF; text-decoration: none; font-size: 1em; transition: color 0.3s; }
+        nav ul li a:hover { color: #00cc66; }
+        .hero { background: linear-gradient(rgba(0, 102, 51, 0.7), rgba(0, 102, 51, 0.7)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee69f'); background-size: cover; background-position: center; color: #FFFFFF; text-align: center; padding: 80px 20px; }
+        .hero h2 { font-size: 2.5em; margin-bottom: 15px; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 20px; background-color: #FFFFFF; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .container h3 { color: #006633; margin-bottom: 20px; font-size: 1.8em; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; padding: 20px; }
+        .product-card { background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; transition: transform 0.3s; }
+        .product-card:hover { transform: translateY(-5px); }
+        .product-card img { max-width: 100%; border-radius: 5px; }
+        .product-card h4 { color: #006633; margin: 10px 0; }
+        .news-section { padding: 20px; text-align: center; font-style: italic; }
+        footer { background-color: #333333; color: #FFFFFF; text-align: center; padding: 15px; width: 100%; }
+        @media (max-width: 768px) { .hero h2 { font-size: 1.8em; } nav ul { flex-direction: column; text-align: center; } nav ul li { margin: 10px 0; } }
+    </style>
+</head>
+<body>
+    <header><h1>Noor Bearings</h1><p>www.noorbearing.com - Inspired by NTN Japan</p></header>
+    <nav><ul><li><a href="#home">Home</a></li><li><a href="#products">Products</a></li><li><a href="#about">About</a></li><li><a href="#news">News</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+    <section class="hero" id="home"><h2>Welcome to Noor Bearings</h2><p>High-quality bearings for industrial and automotive needs, inspired by NTN Japan.</p></section>
+    <div class="container" id="products"><h3>Our Products</h3><div class="products"><div class="product-card"><img src="https://images.unsplash.com/photo-1581092160607-36e7d8e9a94d" alt="Ball Bearing"><h4>Ball Bearings</h4><p>Reliable and efficient for smooth operations.</p></div><div class="product-card"><img src="https://images.unsplash.com/photo-1581092917739-4c1594970c92" alt="Roller Bearing"><h4>Roller Bearings</h4><p>Durable for heavy-duty applications.</p></div><div class="product-card"><img src="https://images.unsplash.com/photo-1581094281358-9064f4c15d1f" alt="Specialty Bearing"><h4>Specialty Bearings</h4><p>Custom solutions for unique needs.</p></div></div></div>
+    <div class="container" id="about"><h3>About Us</h3><p>Noor Bearings provides top-quality bearing solutions, inspired by the precision of NTN Japan. We serve industries across Pakistan with reliable products and exceptional service.</p></div>
+    <div class="container" id="news"><h3>News</h3><div class="news-section"><p>This section is empty.</p></div></div>
+    <div class="container" id="contact"><h3>Contact Us</h3><p>Email: info@noorbearing.com | Phone: +92-300-1234567</p><p>Address: 123 Industrial Area, Karachi, Pakistan</p></div>
+    <footer><p>© 2025 Noor Bearings - www.noorbearing.com. All rights reserved.</p></footer>
+</body>
+</html>
